@@ -8,5 +8,5 @@ COPY . .
 
 EXPOSE 80
 
-ENTRYPOINT ["npm", "start"]
+CMD ["npm", "start"]
 
